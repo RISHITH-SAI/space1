@@ -10,14 +10,14 @@ import { Sun, CloudLightning, Activity, AlertTriangle, User, Moon, Sparkles, Sat
 // If running outside Canvas, provide a fallback firebaseConfig object
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {
-    // Fallback config for local development if not in Canvas
-    apiKey: "YOUR_FALLBACK_API_KEY", // Replace with your actual Firebase API Key
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID",
-    measurementId: "YOUR_MEASUREMENT_ID"
+    // --- YOUR ACTUAL FIREBASE CREDENTIALS GO HERE ---
+    apiKey: "AIzaSyBLQEVulYihnxA8dLCybl6rKLYkZeNrAdw",
+    authDomain: "space1-95560.firebaseapp.com",
+    projectId: "space1-95560",
+    storageBucket: "space1-95560.firebasestorage.app",
+    messagingSenderId: "879676244691",
+    appId: "1:879676244691:web:9c63b7f528eab323e40a26",
+    measurementId: "G-8MRR4W6VZS"
 };
 
 const app = initializeApp(firebaseConfig);
