@@ -1,0 +1,32 @@
+/* Import Tailwind CSS base styles, components, and utilities */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Apply a global font and dark background for the space theme */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Uses the font linked in index.html */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0d1117; /* Dark space-like background */
+  color: #e2e8f0; /* Light text for contrast */
+}
+
+/* Custom scrollbar for a sleeker look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a202c; /* Darker track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a5568; /* Greyish thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* Lighter on hover */
+}
